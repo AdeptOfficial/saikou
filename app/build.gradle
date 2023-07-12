@@ -16,7 +16,7 @@ android {
     defaultConfig {
         applicationId "ani.saikou"
         minSdk 21
-        targetSdk 33
+        targetSdk 34
         versionCode ((System.currentTimeMillis() / 60000).toInteger())
         versionName "1.2.4"
         signingConfig signingConfigs.debug
@@ -44,6 +44,7 @@ android {
         jvmTarget = '17'
     }
     namespace 'ani.saikou'
+    buildToolsVersion '34.0.0'
 }
 
 dependencies {
